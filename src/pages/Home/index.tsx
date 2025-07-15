@@ -12,8 +12,8 @@ export const Home = () => {
   return (
     <>
       {/* MARK: hero */}
-      <section className="flex flex-col items-center justify-center h-screen gap-5 text-center">
-        <img className="w-1/3 max-w-sm" src={Logo} alt="Logo" />
+      <section className="flex flex-col items-center justify-center h-screen gap-5 text-center md:px-3 px-2">
+        <img className="md:w-1/3 w-1/2 max-w-sm" src={Logo} alt="Logo" />
         <h2 className="font-sans text-2xl">
           A quick resume modifier to tailor your resume appropriately within
           minutes.
@@ -25,7 +25,11 @@ export const Home = () => {
       </section>
       {/* MARK: info */}
       <section className="flex lg:flex-row flex-col items-center justify-evenly h-screen gap-10 text-center py-5">
-        <img className="h-full" src="src/assets/cvs-layerd.png" alt="cvs" />
+        <img
+          className="md:h-full p-3"
+          src="src/assets/cvs-layerd.png"
+          alt="cvs"
+        />
         <div className="flex flex-col gap-5 text-3xl align-center justify-start text-start">
           <span>
             <FontAwesomeIcon className="text-nord-btn-primary" icon={faUser} />{" "}
@@ -49,7 +53,7 @@ export const Home = () => {
       </section>
       {/* MARK: cta */}
       <section className="flex flex-col items-center justify-center h-screen gap-5 text-center">
-        <h1 className="text-5xl font-black max-w-1/2">
+        <h1 className="md:text-5xl text-3xl font-black max-w-1/2">
           Start building beautiful, tailored resumes in minutes
         </h1>
         <div className="flex flex-row gap-3">
