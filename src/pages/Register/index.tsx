@@ -1,7 +1,3 @@
-import React from "react";
-
-type Props = {};
-
-export const Register = (props: Props) => {
+export const Register = () => {
   return <div>Register</div>;
 };
