@@ -6,6 +6,7 @@ import {
 import Logo from "../../assets/logo-full.svg";
 import { LinkButton } from "../../components/LinkButton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Footer } from "../../components/Footer";
 
 export const Home = () => {
   return (
@@ -44,6 +45,16 @@ export const Home = () => {
           </span>
         </div>
       </section>
+      <section className="flex flex-col items-center justify-center h-screen gap-5 text-center">
+        <h1 className="text-5xl font-black max-w-1/2">
+          Start building beautiful, tailored resumes in minutes
+        </h1>
+        <div className="flex flex-row gap-3">
+          <LinkButton to="/register" name="Get Started" />
+          <LinkButton to="/login" name="Sign In" secondary />
+        </div>
+      </section>
+      <Footer />
     </>
   );
 };
