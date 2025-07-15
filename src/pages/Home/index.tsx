@@ -26,11 +26,11 @@ export const Home = () => {
       {/* MARK: info */}
       <section className="flex lg:flex-row flex-col items-center justify-evenly h-screen gap-10 text-center py-5">
         <img
-          className="md:h-full p-3"
+          className="md:h-full p-5"
           src="src/assets/cvs-layerd.png"
           alt="cvs"
         />
-        <div className="flex flex-col gap-5 text-3xl align-center justify-start text-start">
+        <div className="flex flex-col gap-5 md:text-3xl text-2xl align-center justify-start text-start">
           <span>
             <FontAwesomeIcon className="text-nord-btn-primary" icon={faUser} />{" "}
             fill in your profile

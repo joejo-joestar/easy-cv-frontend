@@ -29,6 +29,7 @@ export const Footer = () => {
           </a>
         </p>
       </div>
+      <a href=""></a>
     </footer>
   );
 };
