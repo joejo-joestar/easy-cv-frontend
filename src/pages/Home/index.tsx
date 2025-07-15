@@ -27,7 +27,7 @@ export const Home = () => {
       <section className="flex lg:flex-row flex-col items-center justify-evenly h-screen gap-10 text-center py-5">
         <img
           className="md:h-full p-5"
-          src="https://raw.githubusercontent.com/joejo-joestar/easy-cv-frontend/refs/heads/main/src/assets/cvs-layerd.png?token=GHSAT0AAAAAADCUUBEKWFSSAQS6CCYUGXPI2DWJK2Q"
+          src="https://raw.githubusercontent.com/joejo-joestar/easy-cv-frontend/refs/heads/main/src/assets/cvs-layerd.png"
           alt="cvs"
         />
         <div className="flex flex-col gap-5 md:text-3xl text-2xl align-center justify-start text-start">
